@@ -31,7 +31,7 @@ A zip file named “**MobaXterm_Installer_v21.3**” has been downloaded to your
   
 Right click on it and **extract** the files from it.  
   
-<img src="/docs/assets/CISWork4.png" alt="Extract files" width="600">  
+<img src="/CISTutorials/docs/assets/CISWork4.png" alt="Extract files" width="600">  
   
 Then, a window will appear with the extraction path and options.  You can change this information if preferred or just continue with the default settings.  After clicking the ok button to confirm, you should see a folder appear as shown below.  
   
