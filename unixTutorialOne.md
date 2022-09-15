@@ -13,9 +13,9 @@ When you first login, your current working directory is your home directory. You
   
 To find out what is in your home directory, type:  
 
-    ls //short for list  
+    ls   
   
-The **ls** command lists the contents of your current working directory.  
+The **ls** (short for list) command lists the contents of your current working directory.  
   
 There may be no files visible in your home directory, in which case, the UNIX prompt will be returned. Alternatively, there may already be some files inserted by the System Administrator when your account was created.  
   
@@ -32,11 +32,11 @@ To list all files in your home directory including those whose names begin with 
 ### mkdir (make directory)  
 We will now make a subdirectory in your home directory to hold the files you will be creating and using in the course of this tutorial. To make a subdirectory called cs1 in your current working directory type: 
 
-    % mkdir cs1  
+     mkdir cs1  
   
 To see the directory you have just created, type:  
 
-    % ls  
+    ls  
   
   
 ## Step 3: Changing to a different directory
@@ -45,7 +45,7 @@ The command **cd _directory_** means "change the current working directory to 'd
   
 To change to the directory you have just made, type:  
 
-    % cd cs1  
+     cd cs1  
   
 Type **ls** to see the contents (which should be empty).  
   
@@ -56,19 +56,19 @@ Make another directory inside the **cs1** directory called **backups**
 ## Step 4: The directories . and ..  
 Still in the **cs1** directory, type: 
 
-    % ls -a  
+   ls -a  
   
 As you can see, in the **cs1** directory (and in all other directories), there are two special directories called "." and ".."  
   
 In UNIX, "." means the current directory, so typing:  
 
-    % cd . //NOTE: there is a space between **cd** and the dot  
+     cd . //NOTE: there is a space between **cd** and the dot  
   
 means stay where you are (the cs1 directory). This may not seem very useful at first, but using "." as the name of the current directory will save a lot of typing, as we shall see later in the tutorial.  
   
 ".." means the parent of the current directory, so typing:  
 
-    % cd ..  
+    cd ..  
   
 will take you one directory up the hierarchy (back to your home directory). Try it now.  
   
@@ -79,7 +79,7 @@ Note: typing **cd** with no argument always returns you to your home directory. 
 ### pwd (print working directory)  
 Pathnames enable you to work out where you are in relation to the whole file-system. For example, to find out the absolute pathname of your home-directory, type cd to get back to your home-directory and then type:  
 
-    % pwd  
+     pwd  
 
 The full pathname will look something like this:  
 **/home/students/ffeng/cs1**  
