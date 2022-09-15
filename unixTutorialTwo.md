@@ -112,7 +112,7 @@ How can you view the last 15 lines of the file?
   
 ## Step 5: Searching the contents of a file
 ### Simple searching using less  
-Using **less**, you can search though a text file for a keyword (pattern). For example, to search through **nytimes.txt** for the word **nytimes**, type:  
+Using **less**, you can search though a text file for a keyword (pattern). For example, to search through **words** for the word **police**, type:  
 
       less words  
   
