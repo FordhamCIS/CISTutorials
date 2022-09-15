@@ -48,7 +48,7 @@ Type `ls` and `ls backups` to see if it has worked.
   
 ## Step 3: Removing files and directories
 ### rm (remove), rmdir (remove directory)  
-To delete (remove) a file, use the **rm** command. As an example, we are going to create a copy of the nytimes.txt file then delete it.  
+To delete (remove) a file, use the **rm** command. As an example, we are going to create a copy of the **words** file then delete it.  
   
 Inside your cs1 directory, type:  
 
@@ -92,11 +92,11 @@ The **head** command writes the first ten lines of a file to the screen.
   
 First clear the screen then type:  
 
-      head words.txt  
+      head words   
   
 Then type:  
 
-      head -5 words.txt  
+      head -5 words   
 
 What difference did the -5 do to the head command?  
   
@@ -105,7 +105,7 @@ The **tail** command writes the last ten lines of a file to the screen.
   
 Clear the screen and type:  
 
-      tail words.txt  
+      tail words   
   
 How can you view the last 15 lines of the file?  
   
