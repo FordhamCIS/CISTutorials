@@ -13,7 +13,7 @@ When you first login, your current working directory is your home directory. You
   
 To find out what is in your home directory, type:  
 
-    % ls //short for list  
+    ls //short for list  
   
 The **ls** command lists the contents of your current working directory.  
   
@@ -23,7 +23,7 @@ There may be no files visible in your home directory, in which case, the UNIX pr
   
 To list all files in your home directory including those whose names begin with a dot, type:  
 
-    % ls -a  
+    ls -a  
   
 **ls** is an example of a command which can take options: **-a** is an example of an option. The options change the behaviour of the command. There are online manual pages that tell you which options a particular command can take, and how each option modifies the behaviour of the command. (See later in this tutorial.)  
   
